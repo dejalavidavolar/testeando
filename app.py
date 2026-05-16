@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_USERNAME = os.getenv(revengeisnevergood)
+API_USERNAME = os.getenv("RA_USERNAME")
 API_KEY = os.getenv("RA_API_KEY")
 
 USERS = [
